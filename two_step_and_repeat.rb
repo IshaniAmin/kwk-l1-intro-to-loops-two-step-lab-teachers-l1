@@ -10,7 +10,10 @@ def first_steps
 end
 
 def a_few_more_steps
-  # Write a loop that outputs the first two sets of steps in the Two-Step
+  first_steps
+  puts "Right foot steps right and back"
+  puts "Left foot crosses over right"
+  puts "Right foot steps right"
 end
 
 def how_many_steps?
