@@ -26,6 +26,10 @@ def how_many_steps?
   steps += 1
   puts steps
   if steps % 2 == 0
+    puts "Left"
+  else
+    puts "Right"
+  end
 end
 
 def break_dance
