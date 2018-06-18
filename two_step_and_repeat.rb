@@ -23,16 +23,18 @@ end
 
 def how_many_steps?
   steps = 0
-  if steps % 2 == 0
-    puts "Left"
-    steps += 1
-    puts steps
-    sleep(0.5)
-  else
-    puts "Right"
-    steps += 1
-    puts steps
-    sleep(0.5)
+  loop do
+    if steps % 2 == 0
+      puts "Left"
+      steps += 1
+      puts steps
+      sleep(0.5)
+    else
+      puts "Right"
+      steps += 1
+      puts steps
+      sleep(0.5)
+    end
   end
 end
 
