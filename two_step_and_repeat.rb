@@ -23,12 +23,14 @@ end
 
 def how_many_steps?
   steps = 0
-  steps += 1
-  puts steps
   if steps % 2 == 0
     puts "Left"
+    steps += 1
+    puts steps
   else
     puts "Right"
+    steps += 1
+    puts steps
   end
   sleep(0.5)
 end
