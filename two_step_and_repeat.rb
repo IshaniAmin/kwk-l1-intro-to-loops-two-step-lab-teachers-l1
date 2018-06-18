@@ -27,12 +27,13 @@ def how_many_steps?
     puts "Left"
     steps += 1
     puts steps
+    sleep(0.5)
   else
     puts "Right"
     steps += 1
     puts steps
+    sleep(0.5)
   end
-  sleep(0.5)
 end
 
 def break_dance
