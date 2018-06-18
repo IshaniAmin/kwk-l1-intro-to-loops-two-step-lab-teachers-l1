@@ -24,7 +24,7 @@ end
 def how_many_steps?
   steps =
   steps += 1
-  steps
+  puts steps
 end
 
 def break_dance
