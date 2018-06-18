@@ -22,7 +22,7 @@ def a_few_more_steps
 end
 
 def how_many_steps?
-  steps =
+  steps = 0
   steps += 1
   puts steps
   if steps % 2 == 0
