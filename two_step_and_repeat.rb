@@ -40,6 +40,7 @@ end
 
 def break_dance
   steps = 0
+  
   loop do
     if steps % 2 == 0
       puts "Left"
@@ -56,6 +57,6 @@ def break_dance
     if steps == 6
       break
     end
-    
+
   end
 end
